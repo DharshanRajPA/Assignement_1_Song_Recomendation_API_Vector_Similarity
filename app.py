@@ -82,6 +82,7 @@ def recommendation():
                 "similarity": similarity
             })
 
+
         return jsonify(recommendations)
 
     except Exception as e:
