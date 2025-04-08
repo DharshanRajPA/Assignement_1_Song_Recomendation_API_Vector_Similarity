@@ -87,3 +87,5 @@ deactivate
 ## Terminal Comands for the ElastiSearch - Docker environment
 ### docker run :-
 docker run -d --name elasticsearch -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+
+![image](https://github.com/user-attachments/assets/a9cd2f16-b767-4e14-ac3f-c1f17d733ce5)
