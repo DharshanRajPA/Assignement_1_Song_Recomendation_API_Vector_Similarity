@@ -78,9 +78,9 @@ Use the provided CSV to load and cache song features on startup.
 ### setup initialization :-
 python -m venv venv
 ### install dependencies :-
-python install -r requirements.txt
+pip install -r requirements.txt
 ### activate :- 
-.\tf-env\Scripts\Activate.ps1
+.\venv\Scripts\Activate
 ### deactivate :- 
 deactivate
 
